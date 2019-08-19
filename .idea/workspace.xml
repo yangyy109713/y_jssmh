@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="59f4ddf8-82b3-48b7-b14a-e206103916fb" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/dubboDemo/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-server/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-client/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-test/target/" />
+    <ignored path="$PROJECT_DIR$/../esDemo/target/" />
+    <ignored path="$PROJECT_DIR$/../es-demo/target/" />
+    <ignored path="$PROJECT_DIR$/../es-demo/src/main/java/cnblogs/target/" />
+    <ignored path="$PROJECT_DIR$/base-java/target/" />
+    <ignored path="$PROJECT_DIR$/es-demo/target/" />
+    <ignored path="$PROJECT_DIR$/es/target/" />
+    <ignored path="$PROJECT_DIR$/hadoopapilearn/target/" />
+    <ignored path="$PROJECT_DIR$/hadoop-demo/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-api-test/src/main/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-api-test/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis3-demo/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/yyy_s_java$DubboServerApplication.ic" NAME="DubboServerApplication Coverage Results" MODIFIED="1563613863587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="193" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>LOGGER</find>
+      <find>get</find>
+      <find>Loca</find>
+      <find>selectPlayerTeam1</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/yyy/demo/dubbo/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/resources/provider.xml" />
+        <option value="$PROJECT_DIR$/dubbo-api-test/src/main/java/dubboapi/test/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/dubbo-api-test/src/main/java/dubboapi/test/service/CityDubboService.java" />
+        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/yyy/demo/dubbo/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/yyy/demo/dubbo/service/impl/CityDubboServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/yyy/demo/dubbo/DubboProviderTest.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/resources/dubbo.properties" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/yyy/demo/dubbo/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/yyy/demo/dubbo/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-client/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/dubbo-client/src/main/resources/consumer.xml" />
+        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/yyy/demo/dubbo/DubboConsumerTest.java" />
+        <option value="$PROJECT_DIR$/dubbo-client/src/main/java/com/yyy/demo/dubbo/DubboClientApplication.java" />
+        <option value="$PROJECT_DIR$/dubbo-server/src/main/java/com/yyy/demo/dubbo/DubboServerApplication.java" />
+        <option value="$PROJECT_DIR$/base-java/src/main/java/date/DateTest1.java" />
+        <option value="$PROJECT_DIR$/dubbo-api-test/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-client/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-server/pom.xml" />
+        <option value="$PROJECT_DIR$/base-java/src/main/java/bigDecimal/BigDecimalTest.java" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/main/resources/conf/HerosMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/domain/Heros.java" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/test/java/com/mybatis3/demo/test/Mybatis3Test1.java" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/main/resources/conf/dbConfig.properties" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/mapper/PlayerMapperAnnotation.java" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/mapper/TeamMapper.java" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/main/resources/conf/TeamMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/mapper/PlayerMapperPlus.java" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/test/java/com/mybatis3/demo/test/Mybatis3ResultMapTest.java" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/domain/Team.java" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/mapper/TeamMapperPlus.java" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/main/resources/conf/PlayerMapperPlus.xml" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/main/resources/conf/TeamMapperPlus.xml" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/test/java/com/mybatis3/demo/test/Mybatis3PlusTest.java" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/domain/Player.java" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/test/java/com/mybatis3/demo/test/Mybatis3Test.java" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/test/java/com/mybatis3/demo/test/Mybatis3SelectTest.java" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/mapper/PlayerMapper.java" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/main/resources/conf/PlayerMapper.xml" />
+        <option value="$PROJECT_DIR$/base-java/pom.xml" />
+        <option value="$PROJECT_DIR$/base-java/src/main/java/date/DateUtilsTest.java" />
+        <option value="$PROJECT_DIR$/base-java/src/main/java/java_8_stream/StreamTest.java" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/main/resources/conf/mybatis-generator-config.xml" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/mapper/PlayerScoreMapper.java" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/main/resources/conf/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/test/java/com/mybatis3/demo/test/MybatisExampleTest.java" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/domain/PlayerScore.java" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/main/resources/conf/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/mybatis3-demo/src/main/resources/mapper/PlayerMapper.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/Applications/apache-maven-3.5.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mybatis3demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mybatis3demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mybatis3demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="48" />
+    <option name="y" value="23" />
+    <option name="width" value="1340" />
+    <option name="height" value="808" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565788860983" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.yyy.demo.es" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mybatis3-demo/src/main/resources/conf" />
+      <recent name="$PROJECT_DIR$/dubbo-api-test/src/main/java/dubboapi/test" />
+      <recent name="$PROJECT_DIR$/dubbo-server/src/main/java/com/yyy/demo/dubbo/service" />
+      <recent name="$PROJECT_DIR$/dubbo-server/src/main/java/com/yyy/demo/dubbo/bean" />
+      <recent name="$PROJECT_DIR$/hadoop-demo/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mybatis3.demo.mapper" />
+      <recent name="com.yyy.demo.dubbo" />
+      <recent name="cn.yyy.dao.impl" />
+      <recent name="abstractFactory" />
+      <recent name="com.yyy.demo.dubboclient.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mybatis3-demo/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/mapper" />
+      <recent name="$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/domain" />
+      <recent name="$PROJECT_DIR$/mybatis3-demo/src/main/resources" />
+      <recent name="$PROJECT_DIR$/mybatis3-demo/src/main/resources/conf" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.17729971" />
+  </component>
+  <component name="RunManager" selected="JUnit.MybatisExampleTest.test">
+    <configuration name="DateUtilsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="date.DateUtilsTest" />
+      <module name="base-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="date.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mybatis3SelectTest.testSelectByChoose" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis3-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis3.demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybatis3.demo.test" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis3.demo.test.Mybatis3SelectTest" />
+      <option name="METHOD_NAME" value="testSelectByChoose" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mybatis3SelectTest.testSelectByDynamic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis3-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis3.demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybatis3.demo.test" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis3.demo.test.Mybatis3SelectTest" />
+      <option name="METHOD_NAME" value="testSelectByDynamic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mybatis3SelectTest.testSelectByForeach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis3-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis3.demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybatis3.demo.test" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis3.demo.test.Mybatis3SelectTest" />
+      <option name="METHOD_NAME" value="testSelectByForeach" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisExampleTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis3-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis3.demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybatis3.demo.test" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis3.demo.test.MybatisExampleTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseJavaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="base-java" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yyy.demo.base.BaseJavaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis3-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mybatis3.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yyy.demo.dubbo.DubboClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yyy.demo.dubbo.DubboServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yyy.demo.dubbotest.DubboTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="es" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yyy.demo.es.EsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HadoopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hadoop-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yangyy.hadoop.HadoopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo-api-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dubboapi.test.TestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DateUtilsTest" />
+      <item itemvalue="JUnit.Mybatis3SelectTest.testSelectByDynamic" />
+      <item itemvalue="JUnit.Mybatis3SelectTest.testSelectByChoose" />
+      <item itemvalue="JUnit.Mybatis3SelectTest.testSelectByForeach" />
+      <item itemvalue="JUnit.MybatisExampleTest.test" />
+      <item itemvalue="Spring Boot.BaseJavaApplication" />
+      <item itemvalue="Spring Boot.DubboClientApplication" />
+      <item itemvalue="Spring Boot.DubboServerApplication" />
+      <item itemvalue="Spring Boot.DubboTestApplication" />
+      <item itemvalue="Spring Boot.EsApplication" />
+      <item itemvalue="Spring Boot.HadoopApplication" />
+      <item itemvalue="Spring Boot.TestApplication" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MybatisExampleTest.test" />
+        <item itemvalue="Application.DateUtilsTest" />
+        <item itemvalue="JUnit.Mybatis3SelectTest.testSelectByForeach" />
+        <item itemvalue="JUnit.Mybatis3SelectTest.testSelectByChoose" />
+        <item itemvalue="JUnit.Mybatis3SelectTest.testSelectByDynamic" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59f4ddf8-82b3-48b7-b14a-e206103916fb" name="Default Changelist" comment="" />
+      <created>1553429028134</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553429028134</updated>
+      <workItem from="1553429031511" duration="7603000" />
+      <workItem from="1553481333199" duration="648000" />
+      <workItem from="1553701304725" duration="3614000" />
+      <workItem from="1554008553485" duration="9540000" />
+      <workItem from="1554614685249" duration="19327000" />
+      <workItem from="1555826346326" duration="151000" />
+      <workItem from="1555826500284" duration="6438000" />
+      <workItem from="1555851885226" duration="2452000" />
+      <workItem from="1557632677954" duration="7886000" />
+      <workItem from="1558168553005" duration="9669000" />
+      <workItem from="1559036082739" duration="3435000" />
+      <workItem from="1559441905070" duration="12232000" />
+      <workItem from="1560654777872" duration="62000" />
+      <workItem from="1562037347203" duration="4120000" />
+      <workItem from="1562138789142" duration="2110000" />
+      <workItem from="1562500758256" duration="21542000" />
+      <workItem from="1562837060554" duration="3560000" />
+      <workItem from="1563077656112" duration="598000" />
+      <workItem from="1563511370759" duration="9714000" />
+      <workItem from="1563598090846" duration="11415000" />
+      <workItem from="1564017201140" duration="3063000" />
+      <workItem from="1564141321232" duration="3471000" />
+      <workItem from="1564196469981" duration="13448000" />
+      <workItem from="1564278987057" duration="11965000" />
+      <workItem from="1564403175558" duration="9262000" />
+      <workItem from="1565055776953" duration="3852000" />
+      <workItem from="1565510947938" duration="55000" />
+      <workItem from="1565515299580" duration="2758000" />
+      <workItem from="1565523389720" duration="7258000" />
+      <workItem from="1565596829263" duration="1000" />
+      <workItem from="1565784757364" duration="3465000" />
+      <workItem from="1566136099952" duration="83000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Mybatis3SelectTest_testSelectByChoose - 2019.07.29 at 15h 42m 33s.xml">
+      <configuration name="Mybatis3SelectTest.testSelectByChoose" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Mybatis3SelectTest_testSelectByChoose - 2019.07.29 at 15h 43m 23s.xml">
+      <configuration name="Mybatis3SelectTest.testSelectByChoose" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Mybatis3SelectTest_testSelectByChoose - 2019.07.29 at 15h 44m 21s.xml">
+      <configuration name="Mybatis3SelectTest.testSelectByChoose" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Mybatis3SelectTest_testSelectByChoose - 2019.07.29 at 15h 48m 15s.xml">
+      <configuration name="Mybatis3SelectTest.testSelectByChoose" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Mybatis3SelectTest_testSelectByForeach - 2019.07.29 at 20h 31m 44s.xml">
+      <configuration name="Mybatis3SelectTest.testSelectByForeach" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Mybatis3SelectTest_testSelectByForeach - 2019.07.29 at 20h 50m 16s.xml">
+      <configuration name="Mybatis3SelectTest.testSelectByForeach" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Mybatis3SelectTest_testSelectByForeach - 2019.07.29 at 20h 50m 51s.xml">
+      <configuration name="Mybatis3SelectTest.testSelectByForeach" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisExampleTest_test - 2019.08.11 at 21h 13m 19s.xml">
+      <configuration name="MybatisExampleTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisExampleTest_test - 2019.08.11 at 21h 15m 00s.xml">
+      <configuration name="MybatisExampleTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisExampleTest_test - 2019.08.11 at 21h 16m 11s.xml">
+      <configuration name="MybatisExampleTest.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="194797000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="48" y="23" width="1340" height="808" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.22342065" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32960895" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32628798" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32946298" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.5497835" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.34672022" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.3632761" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.20878275" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32935917" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar!/org/apache/ibatis/binding/MapperProxy.class</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/yyy/demo/dubbo/DubboConsumerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/resources/provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/java/com/yyy/demo/dubbo/DubboClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/src/main/java/com/yyy/demo/dubbo/DubboServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-client/src/main/resources/consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-java/src/main/java/bigDecimal/BigDecimalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27982">
+          <caret line="1692" column="80" selection-start-line="1692" selection-start-column="47" selection-end-line="1692" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/builder/xml/mybatis-3-config.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar!/org/apache/ibatis/binding/MapperProxyFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar!/org/apache/ibatis/binding/MapperRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar!/org/apache/ibatis/session/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="712" selection-start-line="712" selection-end-line="712" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="268" selection-start-line="268" selection-end-line="268" />
+          <folding>
+            <element signature="e#9242#9243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar!/org/apache/ibatis/reflection/ParamNameResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar!/org/apache/ibatis/binding/MapperMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/domain/Team.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/resources/mapper/TeamMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/mapper/TeamMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/mapper/TeamMapperPlus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/resources/mapper/TeamMapperPlus.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/mapper/PlayerMapperPlus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar!/org/apache/ibatis/binding/MapperProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-java/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-java/src/main/java/date/DateTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="95" column="7" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/org/apache/commons/lang/time/DateUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="614" column="19" lean-forward="true" selection-start-line="614" selection-start-column="19" selection-end-line="614" selection-end-column="19" />
+          <folding>
+            <element signature="e#19157#19158#0" expanded="true" />
+            <element signature="e#19217#19218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="544" column="28" selection-start-line="544" selection-start-column="28" selection-end-line="544" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-java/src/main/java/date/DateUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="103" column="21" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-java/src/main/java/java_8_stream/StreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/resources/conf/dbConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/mapper/PlayerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/mapper/PlayerMapperAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/resources/mapper/PlayerScoreMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-504">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/domain/PlayerScoreExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2561">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/mapper/PlayerScoreMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/domain/PlayerScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="203" column="38" lean-forward="true" selection-start-line="203" selection-start-column="38" selection-end-line="203" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/test/java/com/mybatis3/demo/test/MybatisExampleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis3-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/domain/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/resources/conf/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="43" column="27" lean-forward="true" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/resources/conf/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/test/java/com/mybatis3/demo/test/Mybatis3Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/test/java/com/mybatis3/demo/test/Mybatis3SelectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-511">
+          <caret line="55" column="64" lean-forward="true" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/test/java/com/mybatis3/demo/test/Mybatis3PlusTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="52" column="55" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/resources/mapper/PlayerMapperPlus.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="62" column="11" lean-forward="true" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/resources/mapper/PlayerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>hadoop-demo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: mysql:mysql-connector-java:8.0.16</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

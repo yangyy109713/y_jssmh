@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis3.demo.mapper.TeamMapper">
+    <resultMap id="rMap" type="com.mybatis3.demo.domain.Team">
+        <id column="team_id" property="teamId"/>
+        <result column="team_name" property="teamName"/>
+    </resultMap>
+    <select id="selectTeamById" resultMap="rMap">
+        select * from team where team_id = #{teamId}
+    </select>
+
+</mapper>

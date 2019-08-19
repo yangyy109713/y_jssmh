@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis3.demo.mapper.PlayerScoreMapper">
+  <resultMap id="BaseResultMap" type="com.mybatis3.demo.domain.PlayerScore">
+    <result column="game_id" jdbcType="INTEGER" property="gameId" />
+    <result column="player_id" jdbcType="INTEGER" property="playerId" />
+    <result column="is_first" jdbcType="BIT" property="isFirst" />
+    <result column="playing_time" jdbcType="INTEGER" property="playingTime" />
+    <result column="rebound" jdbcType="INTEGER" property="rebound" />
+    <result column="rebound_o" jdbcType="INTEGER" property="reboundO" />
+    <result column="rebound_d" jdbcType="INTEGER" property="reboundD" />
+    <result column="assist" jdbcType="INTEGER" property="assist" />
+    <result column="score" jdbcType="INTEGER" property="score" />
+    <result column="steal" jdbcType="INTEGER" property="steal" />
+    <result column="blockshot" jdbcType="INTEGER" property="blockshot" />
+    <result column="fault" jdbcType="INTEGER" property="fault" />
+    <result column="foul" jdbcType="INTEGER" property="foul" />
+    <result column="shoot_attempts" jdbcType="INTEGER" property="shootAttempts" />
+    <result column="shoot_hits" jdbcType="INTEGER" property="shootHits" />
+    <result column="shoot_3_attempts" jdbcType="INTEGER" property="shoot3Attempts" />
+    <result column="shoot_3_hits" jdbcType="INTEGER" property="shoot3Hits" />
+    <result column="shoot_p_attempts" jdbcType="INTEGER" property="shootPAttempts" />
+    <result column="shoot_p_hits" jdbcType="INTEGER" property="shootPHits" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    game_id, player_id, is_first, playing_time, rebound, rebound_o, rebound_d, assist, 
+    score, steal, blockshot, fault, foul, shoot_attempts, shoot_hits, shoot_3_attempts, 
+    shoot_3_hits, shoot_p_attempts, shoot_p_hits
+  </sql>
+  <select id="selectByExample" parameterType="com.mybatis3.demo.domain.PlayerScoreExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from player_score
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <delete id="deleteByExample" parameterType="com.mybatis3.demo.domain.PlayerScoreExample">
+    delete from player_score
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.mybatis3.demo.domain.PlayerScore">
+    insert into player_score (game_id, player_id, is_first, 
+      playing_time, rebound, rebound_o, 
+      rebound_d, assist, score, 
+      steal, blockshot, fault, 
+      foul, shoot_attempts, shoot_hits, 
+      shoot_3_attempts, shoot_3_hits, shoot_p_attempts, 
+      shoot_p_hits)
+    values (#{gameId,jdbcType=INTEGER}, #{playerId,jdbcType=INTEGER}, #{isFirst,jdbcType=BIT}, 
+      #{playingTime,jdbcType=INTEGER}, #{rebound,jdbcType=INTEGER}, #{reboundO,jdbcType=INTEGER}, 
+      #{reboundD,jdbcType=INTEGER}, #{assist,jdbcType=INTEGER}, #{score,jdbcType=INTEGER}, 
+      #{steal,jdbcType=INTEGER}, #{blockshot,jdbcType=INTEGER}, #{fault,jdbcType=INTEGER}, 
+      #{foul,jdbcType=INTEGER}, #{shootAttempts,jdbcType=INTEGER}, #{shootHits,jdbcType=INTEGER}, 
+      #{shoot3Attempts,jdbcType=INTEGER}, #{shoot3Hits,jdbcType=INTEGER}, #{shootPAttempts,jdbcType=INTEGER}, 
+      #{shootPHits,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.mybatis3.demo.domain.PlayerScore">
+    insert into player_score
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="gameId != null">
+        game_id,
+      </if>
+      <if test="playerId != null">
+        player_id,
+      </if>
+      <if test="isFirst != null">
+        is_first,
+      </if>
+      <if test="playingTime != null">
+        playing_time,
+      </if>
+      <if test="rebound != null">
+        rebound,
+      </if>
+      <if test="reboundO != null">
+        rebound_o,
+      </if>
+      <if test="reboundD != null">
+        rebound_d,
+      </if>
+      <if test="assist != null">
+        assist,
+      </if>
+      <if test="score != null">
+        score,
+      </if>
+      <if test="steal != null">
+        steal,
+      </if>
+      <if test="blockshot != null">
+        blockshot,
+      </if>
+      <if test="fault != null">
+        fault,
+      </if>
+      <if test="foul != null">
+        foul,
+      </if>
+      <if test="shootAttempts != null">
+        shoot_attempts,
+      </if>
+      <if test="shootHits != null">
+        shoot_hits,
+      </if>
+      <if test="shoot3Attempts != null">
+        shoot_3_attempts,
+      </if>
+      <if test="shoot3Hits != null">
+        shoot_3_hits,
+      </if>
+      <if test="shootPAttempts != null">
+        shoot_p_attempts,
+      </if>
+      <if test="shootPHits != null">
+        shoot_p_hits,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="gameId != null">
+        #{gameId,jdbcType=INTEGER},
+      </if>
+      <if test="playerId != null">
+        #{playerId,jdbcType=INTEGER},
+      </if>
+      <if test="isFirst != null">
+        #{isFirst,jdbcType=BIT},
+      </if>
+      <if test="playingTime != null">
+        #{playingTime,jdbcType=INTEGER},
+      </if>
+      <if test="rebound != null">
+        #{rebound,jdbcType=INTEGER},
+      </if>
+      <if test="reboundO != null">
+        #{reboundO,jdbcType=INTEGER},
+      </if>
+      <if test="reboundD != null">
+        #{reboundD,jdbcType=INTEGER},
+      </if>
+      <if test="assist != null">
+        #{assist,jdbcType=INTEGER},
+      </if>
+      <if test="score != null">
+        #{score,jdbcType=INTEGER},
+      </if>
+      <if test="steal != null">
+        #{steal,jdbcType=INTEGER},
+      </if>
+      <if test="blockshot != null">
+        #{blockshot,jdbcType=INTEGER},
+      </if>
+      <if test="fault != null">
+        #{fault,jdbcType=INTEGER},
+      </if>
+      <if test="foul != null">
+        #{foul,jdbcType=INTEGER},
+      </if>
+      <if test="shootAttempts != null">
+        #{shootAttempts,jdbcType=INTEGER},
+      </if>
+      <if test="shootHits != null">
+        #{shootHits,jdbcType=INTEGER},
+      </if>
+      <if test="shoot3Attempts != null">
+        #{shoot3Attempts,jdbcType=INTEGER},
+      </if>
+      <if test="shoot3Hits != null">
+        #{shoot3Hits,jdbcType=INTEGER},
+      </if>
+      <if test="shootPAttempts != null">
+        #{shootPAttempts,jdbcType=INTEGER},
+      </if>
+      <if test="shootPHits != null">
+        #{shootPHits,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.mybatis3.demo.domain.PlayerScoreExample" resultType="java.lang.Long">
+    select count(*) from player_score
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update player_score
+    <set>
+      <if test="record.gameId != null">
+        game_id = #{record.gameId,jdbcType=INTEGER},
+      </if>
+      <if test="record.playerId != null">
+        player_id = #{record.playerId,jdbcType=INTEGER},
+      </if>
+      <if test="record.isFirst != null">
+        is_first = #{record.isFirst,jdbcType=BIT},
+      </if>
+      <if test="record.playingTime != null">
+        playing_time = #{record.playingTime,jdbcType=INTEGER},
+      </if>
+      <if test="record.rebound != null">
+        rebound = #{record.rebound,jdbcType=INTEGER},
+      </if>
+      <if test="record.reboundO != null">
+        rebound_o = #{record.reboundO,jdbcType=INTEGER},
+      </if>
+      <if test="record.reboundD != null">
+        rebound_d = #{record.reboundD,jdbcType=INTEGER},
+      </if>
+      <if test="record.assist != null">
+        assist = #{record.assist,jdbcType=INTEGER},
+      </if>
+      <if test="record.score != null">
+        score = #{record.score,jdbcType=INTEGER},
+      </if>
+      <if test="record.steal != null">
+        steal = #{record.steal,jdbcType=INTEGER},
+      </if>
+      <if test="record.blockshot != null">
+        blockshot = #{record.blockshot,jdbcType=INTEGER},
+      </if>
+      <if test="record.fault != null">
+        fault = #{record.fault,jdbcType=INTEGER},
+      </if>
+      <if test="record.foul != null">
+        foul = #{record.foul,jdbcType=INTEGER},
+      </if>
+      <if test="record.shootAttempts != null">
+        shoot_attempts = #{record.shootAttempts,jdbcType=INTEGER},
+      </if>
+      <if test="record.shootHits != null">
+        shoot_hits = #{record.shootHits,jdbcType=INTEGER},
+      </if>
+      <if test="record.shoot3Attempts != null">
+        shoot_3_attempts = #{record.shoot3Attempts,jdbcType=INTEGER},
+      </if>
+      <if test="record.shoot3Hits != null">
+        shoot_3_hits = #{record.shoot3Hits,jdbcType=INTEGER},
+      </if>
+      <if test="record.shootPAttempts != null">
+        shoot_p_attempts = #{record.shootPAttempts,jdbcType=INTEGER},
+      </if>
+      <if test="record.shootPHits != null">
+        shoot_p_hits = #{record.shootPHits,jdbcType=INTEGER},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update player_score
+    set game_id = #{record.gameId,jdbcType=INTEGER},
+      player_id = #{record.playerId,jdbcType=INTEGER},
+      is_first = #{record.isFirst,jdbcType=BIT},
+      playing_time = #{record.playingTime,jdbcType=INTEGER},
+      rebound = #{record.rebound,jdbcType=INTEGER},
+      rebound_o = #{record.reboundO,jdbcType=INTEGER},
+      rebound_d = #{record.reboundD,jdbcType=INTEGER},
+      assist = #{record.assist,jdbcType=INTEGER},
+      score = #{record.score,jdbcType=INTEGER},
+      steal = #{record.steal,jdbcType=INTEGER},
+      blockshot = #{record.blockshot,jdbcType=INTEGER},
+      fault = #{record.fault,jdbcType=INTEGER},
+      foul = #{record.foul,jdbcType=INTEGER},
+      shoot_attempts = #{record.shootAttempts,jdbcType=INTEGER},
+      shoot_hits = #{record.shootHits,jdbcType=INTEGER},
+      shoot_3_attempts = #{record.shoot3Attempts,jdbcType=INTEGER},
+      shoot_3_hits = #{record.shoot3Hits,jdbcType=INTEGER},
+      shoot_p_attempts = #{record.shootPAttempts,jdbcType=INTEGER},
+      shoot_p_hits = #{record.shootPHits,jdbcType=INTEGER}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+</mapper>

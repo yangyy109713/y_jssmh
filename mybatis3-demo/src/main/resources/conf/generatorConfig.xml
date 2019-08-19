@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    <!--引入外部配置文件-->
+    <properties resource="conf/dbConfig.properties"/>
+
+    <!--数据库驱动文件存放路径-->
+    <classPathEntry location="/Users/yuanyuanyang/Documents/mysql-connector-java/8.0.16/mysql-connector-java-8.0.16.jar" />
+
+    <context id="mysqlTables" targetRuntime="MyBatis3">
+        <commentGenerator>
+            <property name="suppressDate" value="true"/>
+            <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+
+        <!--数据库连接 用户名 密码配置-->
+        <jdbcConnection driverClass="${jdbc.driver}"
+                        connectionURL="${jdbc.url}"
+                        userId="${jdbc.name}"
+                        password="${jdbc.pwd}">
+        </jdbcConnection>
+
+        <javaTypeResolver >
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
+
+        <!--生成的对象存放路径-->
+        <javaModelGenerator targetPackage="com.mybatis3.demo.domain"
+                            targetProject="/Users/yuanyuanyang/Documents/IdeaProjects/yyy's java/mybatis3-demo/src">
+            <property name="enableSubPackages" value="true" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+
+        <!--生成映射文件存放路径-->
+        <sqlMapGenerator targetPackage="mapper/"
+                         targetProject="/Users/yuanyuanyang/Documents/IdeaProjects/yyy's java/mybatis3-demo/src">
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+
+        <!--生成dao接口存放路径-->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.mybatis3.demo.mapper"
+                             targetProject="/Users/yuanyuanyang/Documents/IdeaProjects/yyy's java/mybatis3-demo/src">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+
+        <table tableName="player_score" domainObjectName="PlayerScore"
+               >
+        </table>
+
+    </context>
+</generatorConfiguration>

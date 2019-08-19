@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="base-java" />
+        <module name="dubbo-api-test" />
+        <module name="dubbo-client" />
+        <module name="dubbo-server" />
+        <module name="dubbo-test" />
+        <module name="es" />
+        <module name="hadoop-demo" />
+        <module name="mybatis3-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="base-java" target="1.8" />
+      <module name="dubbo-api-test" target="1.8" />
+      <module name="dubbo-client" target="1.8" />
+      <module name="dubbo-server" target="1.8" />
+      <module name="dubbo-test" target="1.8" />
+      <module name="dubboDemo" target="1.8" />
+      <module name="es" target="1.8" />
+      <module name="es-demo" target="1.8" />
+      <module name="hadoop-api-learn" target="1.5" />
+      <module name="hadoop-demo" target="1.8" />
+      <module name="hadoopapilearn" target="1.5" />
+      <module name="main" target="1.8" />
+      <module name="mybatis3-demo" target="1.8" />
+      <module name="spring-ioc" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="base-java" options="-parameters" />
+      <module name="dubbo-api-test" options="-parameters" />
+      <module name="dubbo-client" options="-parameters" />
+      <module name="dubbo-server" options="-parameters" />
+      <module name="dubbo-test" options="-parameters" />
+      <module name="dubboDemo" options="-parameters" />
+      <module name="es" options="-parameters" />
+      <module name="es-demo" options="-parameters" />
+      <module name="hadoop-demo" options="-parameters" />
+      <module name="main" options="-parameters" />
+      <module name="mybatis3-demo" options="-parameters" />
+      <module name="spring-ioc" options="-parameters" />
+    </option>
+  </component>
+</project>

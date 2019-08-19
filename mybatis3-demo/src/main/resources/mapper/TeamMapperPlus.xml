@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis3.demo.mapper.TeamMapperPlus">
+
+    <resultMap id="rMap" type="com.mybatis3.demo.domain.Team">
+        <id column="team_id" property="teamId"/>
+        <result column="team_name" property="teamName"/>
+        <!--定义关联集合类型的属性的封装规则-->
+        <collection property="playerList" ofType="com.mybatis3.demo.domain.Player">
+            <id column="player_id" property="playerId"/>
+            <result column="pteam_id" property="teamId"/>
+            <result column="player_name" property="playerName"/>
+            <result column="height" property="height"/>
+        </collection>
+    </resultMap>
+    <select id="selectTeamPluById" resultMap="rMap">
+        select t.team_id team_id, t.team_name team_name,
+         p.player_id player_id, p.team_id pteam_id, p.player_name player_name, p.height height
+        from team t
+        left join
+        player p on t.team_id = p.team_id
+        where t.team_id = #{teamId}
+    </select>
+
+    <resultMap id="rMap1" type="com.mybatis3.demo.domain.Team">
+        <id column="team_id" property="teamId"/>
+        <result column="team_name" property="teamName"/>
+        <!--
+        定义关联集合类型的属性的封装规则
+        select：表明当前属性是调用select指定的方法查出的结果
+        column：关联表中的字段名称，指定将唯一列的值传给这个方法
+        -->
+        <collection property="playerList"
+                    select="com.mybatis3.demo.mapper.PlayerMapperPlus.selectByTeamId"
+                    column="team_id">
+        </collection>
+    </resultMap>
+    <select id="selectByStep" resultMap="rMap1">
+      select * from team where team_id =#{teamId}
+    </select>
+
+</mapper>

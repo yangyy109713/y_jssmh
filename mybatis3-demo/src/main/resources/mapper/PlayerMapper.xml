@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis3.demo.mapper.PlayerMapper">
+
+    <select id="selectMaps" resultType="com.mybatis3.demo.domain.Player">
+        select * from player where team_id like #{teamId}
+    </select>
+
+    <select id="selectMap1" resultType="map">
+        select * from player where player_id = #{playerId}
+    </select>
+
+    <select id="selectList" resultType="com.mybatis3.demo.domain.Player">
+        select * from player where team_id like #{teamId}
+    </select>
+
+    <select id="selectByParam" resultType="com.mybatis3.demo.domain.Player">
+        select * from player where player_id = #{playerId} and player_name = #{playerName}
+    </select>
+
+    <select id="selectOne" resultType="Player">
+      select * from player where player_id = #{id}
+    </select>
+
+    <insert id="addPlayer" useGeneratedKeys="true" keyProperty="playerId">
+        insert into player (team_id, player_name, height)
+        values (#{teamId}, #{playerName}, #{height})
+    </insert>
+
+    <update id="updatePlayer">
+        update player set team_id = #{teamId}, player_name = #{playerName}, height = #{height}
+        where player_id = #{playerId}
+    </update>
+
+    <delete id="deletePlayer">
+        delete from player where player_id = #{playerId}
+    </delete>
+
+    <update id="updatePlayerByDynamic">
+        update player
+        <set>
+            <if test="teamId != null">
+                team_id = #{teamId},
+            </if>
+            <if test="playerName != null &amp;&amp; playerName != ''">
+                player_name = #{playerName},
+            </if>
+            <if test="height != null">
+                height = #{height}
+            </if>
+        </set>
+        where player_id = #{playerId}
+    </update>
+
+    <!--使用1=1，防止多余的and导致SQL报错-->
+    <select id="selectByDynamic" resultType="com.mybatis3.demo.domain.Player">
+        select player_id, team_id, player_name, height from player
+        where 1=1
+        <if test="playerId != null">
+            and player_id = #{playerId}
+        </if>
+        <if test="teamId != null">
+            and team_id = #{teamId}
+        </if>
+        <if test="playerName != null &amp;&amp; playerName != ''">
+            and player_name = #{playerName}
+        </if>
+        <if test="height != null">
+            and height = #{height}
+        </if>
+    </select>
+
+    <!--使用where标签去除第一个多余的and，防止多余的and导致SQL报错-->
+    <select id="selectByDynamic1" resultType="com.mybatis3.demo.domain.Player">
+        select player_id, team_id, player_name, height from player
+        <where>
+            <if test="playerId != null">
+                and player_id = #{playerId}
+            </if>
+            <if test="teamId != null">
+                and team_id = #{teamId}
+            </if>
+            <if test="playerName != null &amp;&amp; playerName != ''">
+                and player_name = #{playerName}
+            </if>
+            <if test="height != null">
+                and height = #{height}
+            </if>
+        </where>
+    </select>
+
+    <!--返回的 List<Player>-->
+    <select id="selectByChoose" resultType="com.mybatis3.demo.domain.Player">
+        select * from player where 1=1
+        <choose>
+          <when test="playerId != null">
+              and player_id = #{playerId}
+          </when>
+          <when test="teamId != null">
+              and team_id = #{teamId}
+          </when>
+          <when test="playerName != null &amp;&amp; playerName != ''">
+              and player_name = #{playerName}
+          </when>
+          <otherwise>
+              and height > 0
+          </otherwise>
+        </choose>
+    </select>
+
+    <!--
+    foreach 循环遍历传入的参数，并拼接到SQL中
+    collection="playIdList" 传入参数类型    最好在接口中用@Param注解说明
+    item="player_id" 对应的SQL字段
+    separator=","  每个值后的分隔符
+    -->
+    <select id="selectByForeach" resultType="com.mybatis3.demo.domain.Player">
+        select * from player where player_id in
+        <foreach collection="playIdList" item="player_id" separator="," open="(" close=")" >
+            #{player_id}
+        </foreach>
+    </select>
+
+</mapper>

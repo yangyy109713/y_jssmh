@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/base-java/base-java.iml" filepath="$PROJECT_DIR$/base-java/base-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-api-test/dubbo-api-test.iml" filepath="$PROJECT_DIR$/dubbo-api-test/dubbo-api-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-client/dubbo-client.iml" filepath="$PROJECT_DIR$/dubbo-client/dubbo-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-server/dubbo-server.iml" filepath="$PROJECT_DIR$/dubbo-server/dubbo-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-test/dubbo-test.iml" filepath="$PROJECT_DIR$/dubbo-test/dubbo-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/es/es.iml" filepath="$PROJECT_DIR$/es/es.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hadoop-demo/hadoop-demo.iml" filepath="$PROJECT_DIR$/hadoop-demo/hadoop-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis3-demo/mybatis3-demo.iml" filepath="$PROJECT_DIR$/mybatis3-demo/mybatis3-demo.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd
+		http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!-- 1、指定当前服务/应用的名字（同样的服务名字相同，不要和别的服务同名）-->
+    <dubbo:application name="user-service-provider"/>
+
+    <!-- 2、指定注册中心的位置 -->
+    <!-- <dubbo:registry address="zookeeper://47.111.105.143:2181"></dubbo:registry> -->
+    <dubbo:registry protocol="zookeeper" address="47.111.105.143:2181"/>
+
+    <!-- 3、指定通信规则（通信协议？通信端口）-->
+    <dubbo:protocol name="dubbo" port="20882"/>
+
+    <!-- 4、暴露服务 ref：指向服务的真正的实现对象 -->
+    <dubbo:service interface="dubboapi.test.service.UserService"
+                   ref="userServiceImpl01" timeout="1000" version="1.0.0">
+    </dubbo:service>
+
+    <!-- 服务的真正实现 -->
+    <bean id="userServiceImpl01" class="com.yyy.demo.dubbo.service.impl.UserServiceImpl"/>
+
+    <!--监控中心配置：方式1 使用注册中心，自动发现-->
+    <dubbo:monitor protocol="registry"/>
+    <!--监控中心配置：方式2 直连监控中心地址-->
+    <!--<dubbo:monitor address="47.111.105.143:7070"/>-->
+</beans>

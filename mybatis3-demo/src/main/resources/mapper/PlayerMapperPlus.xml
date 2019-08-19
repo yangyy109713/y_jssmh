@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis3.demo.mapper.PlayerMapperPlus">
+    <resultMap id="rMap1" type="com.mybatis3.demo.domain.Player">
+        <id column="player_id" property="playerId"/>
+        <result column="team_id" property="teamId"/>
+        <result column="player_name" property="playerName"/>
+        <result column="height" property="height"/><!--如果不写，则按默认规则映射-->
+    </resultMap>
+
+    <select id="selectPlayerUseResultMap" resultMap="rMap1">
+        select * from player where player_id = #{playerId}
+    </select>
+
+    <select id="selectByTeamId" resultMap="rMap1">
+        select * from player where team_id = #{teamId}
+    </select>
+
+    <resultMap id="rMap2" type="com.mybatis3.demo.domain.Player">
+        <id column="player_id" property="playerId"/>
+        <result column="team_id" property="teamId"/>
+        <result column="player_name" property="playerName"/>
+        <result column="height" property="height"/>
+        <result column="tteam_id" property="team.teamId"/>
+        <result column="team_name" property="team.teamName"/>
+    </resultMap>
+    <select id="selectPlayerTeam" resultMap="rMap2">
+        select p.player_id player_id, p.team_id team_id, p.player_name player_name, p.height height,
+          t.team_id tteam_id, t.team_name team_name
+         from player p, team t where p.team_id = t.team_id and p.team_id like #{teamId}
+    </select>
+
+
+    <resultMap id="rMap3" type="com.mybatis3.demo.domain.Player">
+        <id column="player_id" property="playerId"/>
+        <result column="team_id" property="teamId"/>
+        <result column="player_name" property="playerName"/>
+        <result column="height" property="height"/>
+        <association property="team" javaType="com.mybatis3.demo.domain.Team">
+            <id column="team_id" property="teamId"/>
+            <result column="team_name" property="teamName"/>
+        </association>
+    </resultMap>
+
+    <select id="selectPlayerTeam1" resultMap="rMap3">
+        select p.player_id player_id, p.team_id team_id, p.player_name player_name, p.height height,
+          t.team_id tteam_id, t.team_name team_name
+         from player p, team t where p.team_id = t.team_id and p.team_id like #{teamId}
+    </select>
+
+
+    <resultMap id="rMap4" type="com.mybatis3.demo.domain.Player">
+        <id column="player_id" property="playerId"/>
+        <result column="team_id" property="teamId"/>
+        <result column="player_name" property="playerName"/>
+        <result column="height" property="height"/>
+        <!--
+        association：定义关联对象的封装规则
+        select：表明当前属性是调用select指定的方法查出的结果
+        column：指定将唯一列的值传给这个方法
+        -->
+        <association property="team" select="com.mybatis3.demo.mapper.TeamMapper.selectTeamById"
+                     column="team_id"/>
+    </resultMap>
+    <select id="selectByStep" resultMap="rMap4">
+        select * from player where player_id = #{playerId}
+    </select>
+
+</mapper>

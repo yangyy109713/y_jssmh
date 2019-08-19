@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--
+声明mybatis配置标签"http://mybatis.org/dtd/mybatis-3-config.dtd"
+在写配置信息时会自动提示有哪些标签
+eclipse中默认不会自动下载，联网情况下点击后下载
+idea通过maven引入依赖，会自动下载，可以直接使用
+-->
+<configuration>
+    <!--引入外部配置文件-->
+    <properties resource="conf/dbConfig.properties"/>
+
+    <!--设置mybatis运行时行为-->
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="aggressiveLazyLoading" value="false"/>
+    </settings>
+
+    <!--给类起别名，在mapper.xml可通过别名直接引用-->
+    <typeAliases>
+        <!--<typeAlias type="com.mybatis3.demo.domain.Player" />-->  <!--默认别名=类名小写，如player-->
+        <!--<typeAlias type="com.mybatis3.demo.domain.Player" alias="pla"/>-->  <!--指定自定义的别名-->
+        <package name="com.mybatis3.demo.domain"/> <!--给包路径下所有类/子包中所有类起别名，均为默认别名=类民小写（实际默认别名不区分大小写）-->
+        <!--使用@Alias注解直接给类起别名-->
+    </typeAliases>
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.name}"/>
+                <property name="password" value="${jdbc.pwd}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--
+    将SQL映射文件（mapper/PlayerMapper.xml）注册到全局配置文件中
+    resource：引用类路径下的SQL映射文件
+    url：应用网络路径/磁盘路径下的SQL映射文件
+    class：引用（注册）接口
+    -->
+    <mappers>
+        <mapper resource="mapper/PlayerScoreMapper.xml"/>
+        <mapper resource="mapper/PlayerMapper.xml"/>
+        <mapper resource="mapper/PlayerMapperPlus.xml"/>
+        <mapper resource="mapper/TeamMapper.xml"/>
+        <mapper resource="mapper/TeamMapperPlus.xml"/>
+        <mapper class="com.mybatis3.demo.mapper.PlayerMapperAnnotation"/>
+    </mappers>
+</configuration>

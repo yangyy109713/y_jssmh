@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/base-java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-api-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-api-test/src/main" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubboDemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/es" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hadoop-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis3-demo" charset="UTF-8" />
+  </component>
+</project>
