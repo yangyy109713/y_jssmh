@@ -5,6 +5,7 @@ import beans.Cat;
 import beans.Dog;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Scope;
 
 /**
  *  * Bean的生命周期
@@ -49,5 +50,11 @@ public class MainConfigOfLifeCycle {
     @Bean
     public Dog dog(){
         return new Dog();
+    }
+
+    //使用Bean的后置处理器BeanPostProcessor
+    @Bean
+    public MyBeanPostProcessor myBeanPostProcessor(){
+        return new MyBeanPostProcessor();
     }
 }
