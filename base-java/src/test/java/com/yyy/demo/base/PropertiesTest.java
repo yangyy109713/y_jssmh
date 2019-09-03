@@ -1,6 +1,6 @@
 package com.yyy.demo.base;
 
-import beans.Person;
+import domain.Person;
 import configs.MainConfigOfProperties;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

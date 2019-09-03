@@ -8,13 +8,13 @@ import org.springframework.stereotype.Service;
 public class BookService {
 
     @Autowired
-    private BookDao bookDao;//注入容器失败，使用时会报错：No qualifying bean of type
+    private BookDao bookDao;
 
     /*@Autowired
     private BookDaoImpl bookDao;*/
 
     public void printDao(){
-        System.out.println(bookDao);
+        System.out.println("printDao："+ bookDao);
     }
 
     @Override

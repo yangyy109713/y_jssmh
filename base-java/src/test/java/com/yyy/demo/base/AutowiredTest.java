@@ -2,6 +2,7 @@ package com.yyy.demo.base;
 
 import configs.MainConfigAutowired;
 import dao.BookDao;
+import dao.BookDaoImpl;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import service.BookService;
@@ -18,10 +19,13 @@ public class AutowiredTest {
         printBeans(annotationContext);
 
         BookService service = (BookService) annotationContext.getBean(BookService.class);
-        System.out.println(service);
+        System.out.println("属性bookDao ="+ service);//打印结果：属性bookDao = 实现类bookDaoImpl对象
+        service.printDao();//打印结果：实现类bookDaoImpl对象
 
         BookDao bookDao = (BookDao) annotationContext.getBean(BookDao.class);
-        //BookDaoImpl bookDao = (BookDaoImpl) annotationContext.getBean(BookDaoImpl.class);
+        System.out.println(bookDao);//打印的是实现类bookDaoImpl对象
+        BookDaoImpl bookDaoImpl = (BookDaoImpl) annotationContext.getBean(BookDaoImpl.class);
+        System.out.println(bookDaoImpl);
 
         annotationContext.close();
     }

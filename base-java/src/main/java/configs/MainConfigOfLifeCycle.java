@@ -1,11 +1,10 @@
 package configs;
 
-import beans.Car;
-import beans.Cat;
-import beans.Dog;
+import domain.Car;
+import domain.Cat;
+import domain.Dog;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Scope;
 
 /**
  *  * Bean的生命周期

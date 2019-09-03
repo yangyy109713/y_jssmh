@@ -1,6 +1,6 @@
 package configs;
 
-import beans.Person;
+import domain.Person;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;

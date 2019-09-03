@@ -1,4 +1,4 @@
-package beans;
+package domain;
 
 import org.springframework.beans.factory.annotation.Value;
 
