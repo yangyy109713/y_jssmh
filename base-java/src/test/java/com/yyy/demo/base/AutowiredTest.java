@@ -19,7 +19,7 @@ public class AutowiredTest {
         printBeans(annotationContext);
 
         BookService service = (BookService) annotationContext.getBean(BookService.class);
-        System.out.println("属性bookDao ="+ service);//打印结果：属性bookDao = 实现类bookDaoImpl对象
+        System.out.println("属性bookDao = "+ service);//打印结果：属性bookDao = 实现类bookDaoImpl对象
         service.printDao();//打印结果：实现类bookDaoImpl对象
 
         BookDao bookDao = (BookDao) annotationContext.getBean(BookDao.class);
