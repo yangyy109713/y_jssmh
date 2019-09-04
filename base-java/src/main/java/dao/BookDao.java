@@ -9,6 +9,7 @@ import org.springframework.stereotype.Repository;
  * 只知其然，未知其所以然
  */
 
+//组件名成为类名（首字母小写）
 @Repository
 public interface BookDao {
     void print();
