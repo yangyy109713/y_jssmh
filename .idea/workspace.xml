@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59f4ddf8-82b3-48b7-b14a-e206103916fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/base-java/src/main/java/configs/MainConfiProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base-java/src/main/java/domain/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base-java/src/main/java/domain/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base-java/src/main/java/domain/Red.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base-java/src/main/java/streams_api/StramsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base-java/src/main/resources/streamTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-java/src/main/java/aop/LogAspects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-java/src/main/java/aop/MathCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-java/src/main/java/configs/MainConfigAOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-java/src/test/java/com/yyy/demo/base/IOC_AOPTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base-java/src/main/java/configs/MainConfigAutowired.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-java/src/main/java/configs/MainConfigAutowired.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base-java/src/main/java/domain/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-java/src/main/java/domain/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base-java/src/main/java/domain/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-java/src/main/java/domain/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base-java/src/main/java/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-java/src/main/java/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base-java/src/test/java/com/yyy/demo/base/AutowiredTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-java/src/test/java/com/yyy/demo/base/AutowiredTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base-java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-java/src/main/java/configs/MainConfiProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-java/src/main/java/configs/MainConfiProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-java/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/base-java/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-java/src/test/java/com/yyy/demo/base/PropertiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-java/src/test/java/com/yyy/demo/base/PropertiesTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dubboDemo/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-server/target/" />
@@ -38,26 +36,32 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/yyy_s_java$DubboServerApplication.ic" NAME="DubboServerApplication Coverage Results" MODIFIED="1563613863587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/yyy_s_java$PropertiesTest_test.ic" NAME="PropertiesTest.test Coverage Results" MODIFIED="1567849189361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.yyy.demo.base.*</FILTER>
+    </SUITE>
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="193" />
+    <option name="myElementSize" value="196" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base-java/src/main/java/configs/MainConfiProfile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="257">
+              <caret line="86" column="32" lean-forward="true" selection-start-line="86" selection-start-column="32" selection-end-line="86" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/base-java/src/main/java/streams_api/StramsTest.java">
+        <entry file="file://$PROJECT_DIR$/base-java/src/main/java/configs/MainConfigAOP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="372" column="18" selection-start-line="372" selection-start-column="18" selection-end-line="372" selection-end-column="18" />
+            <state relative-caret-position="367">
+              <caret line="47" column="2" lean-forward="true" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,10 +70,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base-java/src/main/resources/streamTest.txt">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/org/springframework/context/annotation/AspectJAutoProxyRegistrar.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            <state relative-caret-position="184">
+              <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE.jar!/org/springframework/aop/config/AopConfigUtils.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base-java/src/test/java/com/yyy/demo/base/IOC_AOPTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,10 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/mapper/TeamMapper.java" />
-        <option value="$PROJECT_DIR$/mybatis3-demo/src/main/resources/conf/TeamMapper.xml" />
-        <option value="$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/mapper/PlayerMapperPlus.java" />
-        <option value="$PROJECT_DIR$/mybatis3-demo/src/test/java/com/mybatis3/demo/test/Mybatis3ResultMapTest.java" />
         <option value="$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/domain/Team.java" />
         <option value="$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/mapper/TeamMapperPlus.java" />
         <option value="$PROJECT_DIR$/mybatis3-demo/src/main/resources/conf/PlayerMapperPlus.xml" />
@@ -134,14 +155,11 @@
         <option value="$PROJECT_DIR$/base-java/src/main/java/beans/Car.java" />
         <option value="$PROJECT_DIR$/base-java/src/test/java/com/yyy/demo/base/IOCBeanLifeTest.java" />
         <option value="$PROJECT_DIR$/base-java/src/main/java/configs/MainConfigOfLifeCycle.java" />
-        <option value="$PROJECT_DIR$/base-java/src/test/java/com/yyy/demo/base/PropertiesTest.java" />
         <option value="$PROJECT_DIR$/base-java/src/main/java/beans/Person.java" />
-        <option value="$PROJECT_DIR$/base-java/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/base-java/src/main/java/configs/MainConfigOfProperties.java" />
         <option value="$PROJECT_DIR$/base-java/src/main/java/beans/Book.java" />
         <option value="$PROJECT_DIR$/base-java/src/main/java/controller/BookController.java" />
         <option value="$PROJECT_DIR$/base-java/src/main/java/dao/BookDaoImpl.java" />
-        <option value="$PROJECT_DIR$/base-java/pom.xml" />
         <option value="$PROJECT_DIR$/base-java/src/main/java/dao/BookDao.java" />
         <option value="$PROJECT_DIR$/base-java/src/main/java/domain/Boss.java" />
         <option value="$PROJECT_DIR$/base-java/src/main/java/domain/Car.java" />
@@ -150,10 +168,17 @@
         <option value="$PROJECT_DIR$/base-java/src/main/java/domain/Red.java" />
         <option value="$PROJECT_DIR$/base-java/src/test/java/com/yyy/demo/base/AutowiredTest.java" />
         <option value="$PROJECT_DIR$/base-java/src/main/java/configs/MainConfigAutowired.java" />
-        <option value="$PROJECT_DIR$/base-java/src/main/java/configs/MainConfiProfile.java" />
         <option value="$PROJECT_DIR$/base-java/src/main/java/domain/Person.java" />
         <option value="$PROJECT_DIR$/base-java/src/main/resources/streamTest.txt" />
         <option value="$PROJECT_DIR$/base-java/src/main/java/streams_api/StramsTest.java" />
+        <option value="$PROJECT_DIR$/base-java/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/base-java/src/main/java/configs/MainConfiProfile.java" />
+        <option value="$PROJECT_DIR$/base-java/src/test/java/com/yyy/demo/base/PropertiesTest.java" />
+        <option value="$PROJECT_DIR$/base-java/pom.xml" />
+        <option value="$PROJECT_DIR$/base-java/src/main/java/aop/MathCalculator.java" />
+        <option value="$PROJECT_DIR$/base-java/src/main/java/aop/LogAspects.java" />
+        <option value="$PROJECT_DIR$/base-java/src/test/java/com/yyy/demo/base/IOC_AOPTest.java" />
+        <option value="$PROJECT_DIR$/base-java/src/main/java/configs/MainConfigAOP.java" />
       </list>
     </option>
   </component>
@@ -174,13 +199,13 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="base-java" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="12" />
     <option name="y" value="29" />
     <option name="width" value="1440" />
@@ -192,7 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,65 +248,45 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yyy's java" type="b2602c69:ProjectViewProjectNode" />
               <item name="base-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyy's java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="base-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yyy's java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="base-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="streams_api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yyy's java" type="b2602c69:ProjectViewProjectNode" />
               <item name="base-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yyy's java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis3-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yyy's java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis3-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yyy's java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis3-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yyy's java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis3-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yyy's java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis3-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yyy's java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis3-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -294,7 +298,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567831552355" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567870432716" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -302,7 +306,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="instant.run" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -349,7 +353,7 @@
     </option>
     <option name="contentProportion" value="0.17729971" />
   </component>
-  <component name="RunManager" selected="Application.StramsTest">
+  <component name="RunManager" selected="JUnit.IOC_AOPTest.test">
     <configuration name="StramsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="streams_api.StramsTest" />
       <module name="base-java" />
@@ -379,7 +383,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IOCBeanLifeTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IOC_AOPTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="base-java" />
       <extension name="coverage">
         <pattern>
@@ -388,24 +392,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.yyy.demo.base" />
-      <option name="MAIN_CLASS_NAME" value="com.yyy.demo.base.IOCBeanLifeTest" />
+      <option name="MAIN_CLASS_NAME" value="com.yyy.demo.base.IOC_AOPTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisExampleTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis3-demo" />
+    <configuration name="PropertiesTest.codeChangeEnvironment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="base-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mybatis3.demo.test.*" />
+          <option name="PATTERN" value="com.yyy.demo.base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mybatis3.demo.test" />
-      <option name="MAIN_CLASS_NAME" value="com.mybatis3.demo.test.MybatisExampleTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.yyy.demo.base" />
+      <option name="MAIN_CLASS_NAME" value="com.yyy.demo.base.PropertiesTest" />
+      <option name="METHOD_NAME" value="codeChangeEnvironment" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -485,8 +489,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MybatisExampleTest.test" />
-      <item itemvalue="JUnit.IOCBeanLifeTest.test" />
+      <item itemvalue="Application.StramsTest" />
       <item itemvalue="JUnit.PropertiesTest.test" />
       <item itemvalue="JUnit.AutowiredTest.test" />
       <item itemvalue="Spring Boot.BaseJavaApplication" />
@@ -497,15 +500,16 @@
       <item itemvalue="Spring Boot.HadoopApplication" />
       <item itemvalue="Spring Boot.TestApplication" />
       <item itemvalue="Spring Boot.DemoApplication" />
-      <item itemvalue="Application.StramsTest" />
+      <item itemvalue="JUnit.PropertiesTest.codeChangeEnvironment" />
+      <item itemvalue="JUnit.IOC_AOPTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IOC_AOPTest.test" />
+        <item itemvalue="JUnit.PropertiesTest.codeChangeEnvironment" />
+        <item itemvalue="JUnit.PropertiesTest.test" />
         <item itemvalue="Application.StramsTest" />
         <item itemvalue="JUnit.AutowiredTest.test" />
-        <item itemvalue="JUnit.PropertiesTest.test" />
-        <item itemvalue="JUnit.IOCBeanLifeTest.test" />
-        <item itemvalue="JUnit.MybatisExampleTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -559,7 +563,8 @@
       <workItem from="1567426401754" duration="6590000" />
       <workItem from="1567503048007" duration="55000" />
       <workItem from="1567515332205" duration="1843000" />
-      <workItem from="1567600155078" duration="36071000" />
+      <workItem from="1567600155078" duration="36111000" />
+      <workItem from="1567845531482" duration="11251000" />
     </task>
     <task id="LOCAL-00001" summary="update port">
       <created>1566186720669</created>
@@ -596,46 +601,53 @@
       <option name="project" value="LOCAL" />
       <updated>1567602826615</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="java8 Stream基础">
+      <created>1567831574694</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567831574694</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AutowiredTest_test - 2019.09.04 at 21h 24m 17s.xml">
-      <configuration name="AutowiredTest.test" configurationId="JUnit" />
+    <history-entry file="PropertiesTest_test - 2019.09.07 at 17h 57m 34s.xml">
+      <configuration name="PropertiesTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AutowiredTest_test - 2019.09.04 at 21h 25m 04s.xml">
-      <configuration name="AutowiredTest.test" configurationId="JUnit" />
+    <history-entry file="PropertiesTest_test - 2019.09.07 at 17h 57m 58s.xml">
+      <configuration name="PropertiesTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AutowiredTest_test - 2019.09.04 at 21h 25m 51s.xml">
-      <configuration name="AutowiredTest.test" configurationId="JUnit" />
+    <history-entry file="PropertiesTest_test - 2019.09.07 at 17h 58m 28s.xml">
+      <configuration name="PropertiesTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AutowiredTest_test - 2019.09.04 at 21h 30m 29s.xml">
-      <configuration name="AutowiredTest.test" configurationId="JUnit" />
+    <history-entry file="PropertiesTest_codeChangeEnvironment - 2019.09.07 at 17h 58m 39s.xml">
+      <configuration name="PropertiesTest.codeChangeEnvironment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AutowiredTest_test - 2019.09.05 at 09h 28m 53s.xml">
-      <configuration name="AutowiredTest.test" configurationId="JUnit" />
+    <history-entry file="PropertiesTest_codeChangeEnvironment - 2019.09.07 at 18h 00m 13s.xml">
+      <configuration name="PropertiesTest.codeChangeEnvironment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AutowiredTest_test - 2019.09.05 at 09h 31m 33s.xml">
-      <configuration name="AutowiredTest.test" configurationId="JUnit" />
+    <history-entry file="PropertiesTest_codeChangeEnvironment - 2019.09.07 at 18h 00m 49s.xml">
+      <configuration name="PropertiesTest.codeChangeEnvironment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AutowiredTest_test - 2019.09.05 at 09h 43m 47s.xml">
-      <configuration name="AutowiredTest.test" configurationId="JUnit" />
+    <history-entry file="IOC_AOPTest_test - 2019.09.07 at 20h 57m 39s.xml">
+      <configuration name="IOC_AOPTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AutowiredTest_test - 2019.09.05 at 10h 10m 22s.xml">
-      <configuration name="AutowiredTest.test" configurationId="JUnit" />
+    <history-entry file="IOC_AOPTest_test - 2019.09.07 at 21h 00m 01s.xml">
+      <configuration name="IOC_AOPTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AutowiredTest_test - 2019.09.05 at 10h 11m 26s.xml">
-      <configuration name="AutowiredTest.test" configurationId="JUnit" />
+    <history-entry file="IOC_AOPTest_test - 2019.09.07 at 21h 10m 19s.xml">
+      <configuration name="IOC_AOPTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AutowiredTest_test - 2019.09.05 at 10h 13m 37s.xml">
-      <configuration name="AutowiredTest.test" configurationId="JUnit" />
+    <history-entry file="IOC_AOPTest_test - 2019.09.07 at 21h 10m 51s.xml">
+      <configuration name="IOC_AOPTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247050000" />
+    <option name="totallyTimeSpent" value="258341000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="29" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -644,7 +656,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.22889842" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.23175965" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32960895" />
@@ -656,8 +668,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32939634" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.31102362" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.3464567" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.41732284" />
+      <window_info active="true" anchor="bottom" id="Debug" order="11" visible="true" weight="0.3464567" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" />
@@ -672,7 +684,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32935917" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32904148" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -684,7 +696,8 @@
     <MESSAGE value="自动装配_@Autowired" />
     <MESSAGE value="udpate" />
     <MESSAGE value="@Resource和@Inject" />
-    <option name="LAST_COMMIT_MESSAGE" value="@Resource和@Inject" />
+    <MESSAGE value="java8 Stream基础" />
+    <option name="LAST_COMMIT_MESSAGE" value="java8 Stream基础" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -695,87 +708,16 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/org/springframework/context/annotation/AspectJAutoProxyRegistrar.class</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/domain/PlayerScoreExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2561">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/mapper/PlayerScoreMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/domain/PlayerScore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="203" column="38" lean-forward="true" selection-start-line="203" selection-start-column="38" selection-end-line="203" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/test/java/com/mybatis3/demo/test/MybatisExampleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis3-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/java/com/mybatis3/demo/domain/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/resources/conf/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/test/java/com/mybatis3/demo/test/Mybatis3Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/test/java/com/mybatis3/demo/test/Mybatis3SelectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-511">
-          <caret line="55" column="64" lean-forward="true" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/test/java/com/mybatis3/demo/test/Mybatis3PlusTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="52" column="55" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/resources/mapper/PlayerMapperPlus.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="62" column="11" lean-forward="true" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis3-demo/src/main/resources/mapper/PlayerMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
@@ -818,16 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base-java/src/test/java/com/yyy/demo/base/IOCBeanLifeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/base-java/src/main/java/configs/MainConfigOfLifeCycle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -857,20 +789,6 @@
             <element signature="e#243#244#0" expanded="true" />
             <element signature="e#277#278#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base-java/src/test/java/com/yyy/demo/base/PropertiesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base-java/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -922,13 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="43" column="27" lean-forward="true" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base-java/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1079,13 +990,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base-java/src/main/java/configs/MainConfiProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/base-java/src/main/java/domain/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -1102,8 +1006,137 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/base-java/src/main/java/streams_api/StramsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="372" column="18" selection-start-line="372" selection-start-column="18" selection-end-line="372" selection-end-column="18" />
+        <state relative-caret-position="330">
+          <caret line="348" column="54" selection-start-line="348" selection-start-column="54" selection-end-line="348" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-java/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-java/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-java/src/test/java/com/yyy/demo/base/PropertiesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-java/src/test/java/com/yyy/demo/base/IOCBeanLifeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-java/src/main/java/aop/LogAspects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-java/src/main/java/aop/MathCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/core/annotation/AnnotationAttributes.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="190" column="39" selection-start-line="190" selection-start-column="39" selection-end-line="190" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="177" column="41" selection-start-line="177" selection-start-column="41" selection-end-line="177" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-java/src/test/java/com/yyy/demo/base/IOC_AOPTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-java/src/main/java/configs/MainConfiProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="86" column="32" lean-forward="true" selection-start-line="86" selection-start-column="32" selection-end-line="86" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/org/springframework/context/annotation/EnableAspectJAutoProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE.jar!/org/springframework/aop/config/AopConfigUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/org/springframework/context/annotation/AspectJAutoProxyRegistrar.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-java/src/main/java/configs/MainConfigAOP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="47" column="2" lean-forward="true" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1175,7 +1208,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: mysql:mysql-connector-java:8.0.16</last-edited>
+          <last-edited>Maven: mysql:mysql-connector-java:5.1.46</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
