@@ -23,6 +23,11 @@ public class Person {
     public Person() {
     }
 
+    public Person(String name, int age){
+        this.name = name;
+        this.age = age;
+    }
+
     public Person(String name, int age, String address) {
         this.name = name;
         this.age = age;
@@ -30,6 +35,7 @@ public class Person {
     }
 
     public String getName() {
+        System.out.println("getName:"+ name);
         return name;
     }
 
