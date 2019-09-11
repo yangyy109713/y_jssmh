@@ -92,6 +92,6 @@ public class MainConfiProfile implements EmbeddedValueResolverAware {
     @Override
     public void setEmbeddedValueResolver(StringValueResolver stringValueResolver) {
         this.valueResolver = stringValueResolver;
-        driverClass = valueResolver.resolveStringValue("${db.DriverClass}");//使用StringValueResolver从配置文件中取值
+        driverClass = valueResolver.resolveStringValue("${db.driverClass}");//使用StringValueResolver从配置文件中取值
     }
 }

@@ -56,6 +56,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.46</version>
         </dependency>
 
         <!--Spring AOP：面向切面编程-->
@@ -64,6 +65,14 @@
             <artifactId>spring-aspects</artifactId>
             <version>5.1.5.RELEASE</version>
         </dependency>
+
+        <!--Spring jdbc模块-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>5.1.9.RELEASE</version>
+        </dependency>
+
 
     </dependencies>
 
