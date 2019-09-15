@@ -7,7 +7,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class IOCBeanLifeTest {
 
     @Test
-    public void test(){
+    public void test() {
         //1.传入配置类的位置，如MainConfig.class
         AnnotationConfigApplicationContext annotationContext =
                 new AnnotationConfigApplicationContext(MainConfigOfLifeCycle.class);

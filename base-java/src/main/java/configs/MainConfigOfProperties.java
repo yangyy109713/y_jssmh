@@ -11,7 +11,7 @@ import org.springframework.context.annotation.PropertySource;
 public class MainConfigOfProperties {
 
     @Bean
-    public Person person(){
+    public Person person() {
         return new Person();
     }
 }

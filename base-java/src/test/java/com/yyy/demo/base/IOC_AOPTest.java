@@ -7,7 +7,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 public class IOC_AOPTest {
     @Test
-    public void test(){
+    public void test() {
         //1.传入配置类的位置
         AnnotationConfigApplicationContext annotationContext =
                 new AnnotationConfigApplicationContext(MainConfigAOP.class);

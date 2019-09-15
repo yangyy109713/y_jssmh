@@ -20,13 +20,13 @@ public class BookService {
     //@Inject
     private BookDao bookDao;
 
-    public void printDao(){
-        System.out.println("printDao："+ bookDao);
+    public void printDao() {
+        System.out.println("printDao：" + bookDao);
     }
 
     //Bean标注的方法创建对象时，方法参数从容器中获取
     @Bean
-    public Color color(Car car){
+    public Color color(Car car) {
         Color color = new Color(car);
         return color;
     }

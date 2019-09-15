@@ -4,15 +4,15 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Car {
-    public Car(){
+    public Car() {
         System.out.println("car constructor");
     }
 
-    public void init(){
+    public void init() {
         System.out.println("car init...");
     }
 
-    public void destroy(){
+    public void destroy() {
         System.out.println("car destroy...");
     }
 }

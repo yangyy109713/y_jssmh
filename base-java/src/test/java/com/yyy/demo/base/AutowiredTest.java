@@ -17,12 +17,12 @@ public class AutowiredTest {
             new AnnotationConfigApplicationContext(MainConfigAutowired.class);
 
     @Test
-    public void test(){
+    public void test() {
         System.out.println("容器创建完成。。。");
         printBeans(annotationContext);
 
         BookService service = (BookService) annotationContext.getBean(BookService.class);
-        System.out.println("属性bookDao = "+ service);//打印结果：属性bookDao = 实现类bookDaoImpl对象
+        System.out.println("属性bookDao = " + service);//打印结果：属性bookDao = 实现类bookDaoImpl对象
         service.printDao();//打印结果：实现类bookDaoImpl对象
         /*
         BookDao bookDao = (BookDao) annotationContext.getBean(BookDao.class);
@@ -40,15 +40,15 @@ public class AutowiredTest {
         Color color = annotationContext.getBean(Color.class);
         System.out.println(color);//car、boss、color都是同一个Car对象
 
-        System.out.println("测试类使用的applicationContext:"+ annotationContext);
+        System.out.println("测试类使用的applicationContext:" + annotationContext);
 
         annotationContext.close();
     }
 
-    private void printBeans(AnnotationConfigApplicationContext context){
+    private void printBeans(AnnotationConfigApplicationContext context) {
         String[] definitionNames = context.getBeanDefinitionNames();
-        for (String name : definitionNames){
-            System.out.println("beanName:"+ name);
+        for (String name : definitionNames) {
+            System.out.println("beanName:" + name);
         }
     }
 }

@@ -6,32 +6,35 @@ package designPrincinple;
  * 核心思想是：要面向接口编程，不要面向实现编程
  */
 public class DIPtest {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Customer customer = new Customer();
         System.out.println("顾客购买一下商品：");
         customer.shopping(new ShaoguanShop());
         customer.shopping(new WuyuanShop());
     }
 }
+
 //商店
-interface Shop{
+interface Shop {
     String sell();
 }
+
 //韶关商店
-class ShaoguanShop implements Shop{
-    public String sell(){
+class ShaoguanShop implements Shop {
+    public String sell() {
         return "韶关土特产：香菇、木耳...";
     }
 }
+
 //婺源商店
-class WuyuanShop implements Shop{
-    public String sell(){
+class WuyuanShop implements Shop {
+    public String sell() {
         return "婺源土特产：绿茶、酒精鱼...";
     }
 }
 
 class Customer {
-    public void shopping(Shop shop){
+    public void shopping(Shop shop) {
         //购物
         System.out.println(shop.sell());
     }

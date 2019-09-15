@@ -5,17 +5,17 @@ import java.awt.*;
 import java.net.URLDecoder;
 
 public class AbstractFarmTest {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         try {
             Farm farm;
             Animal1 animal;
             Plant plant;
-            farm = (Farm)ReadXml.getObject();
+            farm = (Farm) ReadXml.getObject();
             animal = farm.newAnimal();//
             plant = farm.newPlant();
             animal.show();
             plant.show();
-        }catch (Exception e){
+        } catch (Exception e) {
             System.out.println(e.getMessage());
         }
     }
@@ -30,7 +30,8 @@ interface Animal1 {
 class Horse1 implements Animal1 {
     JScrollPane pane;
     JFrame jFrame = new JFrame("抽象工厂模式测试类");
-    public Horse1(){
+
+    public Horse1() {
         Container container = jFrame.getContentPane();
         JPanel jPanel = new JPanel();
         jPanel.setLayout(new GridLayout(1, 1));
@@ -39,17 +40,18 @@ class Horse1 implements Animal1 {
         container.add(pane, BorderLayout.CENTER);
         String path = Class.class.getClass().getResource("/").getPath();
         try {
-            path = URLDecoder.decode(path,"utf-8");//路径中有空格，需要特殊处理，否则编译后获取不到
-        }catch (Exception e){
+            path = URLDecoder.decode(path, "utf-8");//路径中有空格，需要特殊处理，否则编译后获取不到
+        } catch (Exception e) {
             e.printStackTrace();
         }
-        JLabel jLabel = new JLabel(new ImageIcon(path +"abstractFactory/horse.jpg"));
+        JLabel jLabel = new JLabel(new ImageIcon(path + "abstractFactory/horse.jpg"));
         jPanel.add(jLabel);
         jFrame.pack();
         jFrame.setVisible(false);
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//关闭窗口
     }
-    public void show(){
+
+    public void show() {
         jFrame.setVisible(true);
     }
 }
@@ -58,7 +60,8 @@ class Horse1 implements Animal1 {
 class Cattle1 implements Animal1 {
     JScrollPane pane;
     JFrame jFrame = new JFrame("抽象工厂模式测试类");
-    public Cattle1(){
+
+    public Cattle1() {
         Container container = jFrame.getContentPane();
         JPanel jPanel = new JPanel();
         jPanel.setLayout(new GridLayout(1, 1));
@@ -67,31 +70,33 @@ class Cattle1 implements Animal1 {
         container.add(pane, BorderLayout.CENTER);
         String path = Class.class.getClass().getResource("/").getPath();
         try {
-            path = URLDecoder.decode(path,"utf-8");//路径中有空格，需要特殊处理，否则编译后获取不到
-        }catch (Exception e){
+            path = URLDecoder.decode(path, "utf-8");//路径中有空格，需要特殊处理，否则编译后获取不到
+        } catch (Exception e) {
             e.printStackTrace();
         }
-        JLabel jLabel = new JLabel(new ImageIcon(path +"abstractFactory/cattle.jpg"));
+        JLabel jLabel = new JLabel(new ImageIcon(path + "abstractFactory/cattle.jpg"));
         jPanel.add(jLabel);
         jFrame.pack();
         jFrame.setVisible(false);
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//关闭窗口
     }
-    public void show(){
+
+    public void show() {
         jFrame.setVisible(true);
     }
 }
 
 //抽象工厂：植物类
-interface Plant{
+interface Plant {
     void show();
 }
 
 //具体产品：水果类
-class Fruit implements Plant{
+class Fruit implements Plant {
     JScrollPane pane;
     JFrame jFrame = new JFrame("抽象工厂模式测试类");
-    public Fruit(){
+
+    public Fruit() {
         Container container = jFrame.getContentPane();
         JPanel jPanel = new JPanel();
         jPanel.setLayout(new GridLayout(1, 1));
@@ -100,26 +105,28 @@ class Fruit implements Plant{
         container.add(pane, BorderLayout.CENTER);
         String path = Class.class.getClass().getResource("/").getPath();
         try {
-            path = URLDecoder.decode(path,"utf-8");//路径中有空格，需要特殊处理，否则编译后获取不到
-        }catch (Exception e){
+            path = URLDecoder.decode(path, "utf-8");//路径中有空格，需要特殊处理，否则编译后获取不到
+        } catch (Exception e) {
             e.printStackTrace();
         }
-        JLabel jLabel = new JLabel(new ImageIcon(path +"abstractFactory/fruit.jpg"));
+        JLabel jLabel = new JLabel(new ImageIcon(path + "abstractFactory/fruit.jpg"));
         jPanel.add(jLabel);
         jFrame.pack();
         jFrame.setVisible(false);
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//关闭窗口
     }
-    public void show(){
+
+    public void show() {
         jFrame.setVisible(true);
     }
 }
 
 //具体产品：鲜花类
-class Flower implements Plant{
+class Flower implements Plant {
     JScrollPane pane;
     JFrame jFrame = new JFrame("抽象工厂模式测试类");
-    public Flower(){
+
+    public Flower() {
         Container container = jFrame.getContentPane();
         JPanel jPanel = new JPanel();
         jPanel.setLayout(new GridLayout(1, 1));
@@ -128,17 +135,18 @@ class Flower implements Plant{
         container.add(pane, BorderLayout.CENTER);
         String path = Class.class.getClass().getResource("/").getPath();
         try {
-            path = URLDecoder.decode(path,"utf-8");//路径中有空格，需要特殊处理，否则编译后获取不到
-        }catch (Exception e){
+            path = URLDecoder.decode(path, "utf-8");//路径中有空格，需要特殊处理，否则编译后获取不到
+        } catch (Exception e) {
             e.printStackTrace();
         }
-        JLabel jLabel = new JLabel(new ImageIcon(path +"abstractFactory/flower.jpg"));
+        JLabel jLabel = new JLabel(new ImageIcon(path + "abstractFactory/flower.jpg"));
         jPanel.add(jLabel);
         jFrame.pack();
         jFrame.setVisible(false);
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//关闭窗口
     }
-    public void show(){
+
+    public void show() {
         jFrame.setVisible(true);
     }
 }
@@ -147,16 +155,18 @@ class Flower implements Plant{
 //抽象工厂：农场
 interface Farm {
     Animal1 newAnimal();
+
     Plant newPlant();
 }
 
 //具体工厂：Yyy农场
 class YyyFarm implements Farm {
-    public Animal1 newAnimal(){
+    public Animal1 newAnimal() {
         System.out.println("马出生了。。。");
         return new Horse1();
     }
-    public Plant newPlant(){
+
+    public Plant newPlant() {
         System.out.println("花开了。。。");
         return new Flower();
     }
@@ -164,7 +174,7 @@ class YyyFarm implements Farm {
 
 //具体工厂：Sxf场
 class SxfFarm implements Farm {
-    public Animal1 newAnimal(){
+    public Animal1 newAnimal() {
         System.out.println("牛出生了。。。");
         return new Cattle1();
     }

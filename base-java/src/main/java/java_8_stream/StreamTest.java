@@ -5,16 +5,16 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class StreamTest {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
     }
 
 
-    public static void java7SortValue(List<Double> doubles, List<Integer> integers){
+    public static void java7SortValue(List<Double> doubles, List<Integer> integers) {
         //判断 值非0
         //List<Double> doubleList = new ArrayList<>();
-        for(Double d : doubles){
-            if(d.doubleValue() != 0){
+        for (Double d : doubles) {
+            if (d.doubleValue() != 0) {
                 doubles.add(d);
             }
         }
@@ -29,16 +29,16 @@ public class StreamTest {
 
         //取值 转成int，结果插入新的list赋值
         //List<Integer> integerList = new ArrayList<>();
-        for (Double d : doubles){
+        for (Double d : doubles) {
             integers.add(d.intValue());
         }
     }
 
-    public static void java8SortValue(List<Double> doubles, List<Integer> integers){
+    public static void java8SortValue(List<Double> doubles, List<Integer> integers) {
         integers = doubles.parallelStream().
                 filter(t -> t.doubleValue() != 0).
-                sorted(Comparator.comparing(Double :: doubleValue).reversed()).
-                map(Double :: intValue).
+                sorted(Comparator.comparing(Double::doubleValue).reversed()).
+                map(Double::intValue).
                 collect(Collectors.toList());
     }
 }

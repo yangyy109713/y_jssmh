@@ -9,7 +9,7 @@ public class Person {
      * 1.基本数值，如字符串，数字等
      * 2.可以写SpEL：#{}    即Spring表达式
      * 3.可以写${}：从配置文件中取值（即运行环境中的值）
-     * */
+     */
 
     @Value("bjyx")
     private String name;
@@ -23,7 +23,7 @@ public class Person {
     public Person() {
     }
 
-    public Person(String name, int age){
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -35,7 +35,7 @@ public class Person {
     }
 
     public String getName() {
-        System.out.println("getName:"+ name);
+        System.out.println("getName:" + name);
         return name;
     }
 

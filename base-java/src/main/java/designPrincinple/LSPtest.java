@@ -7,7 +7,7 @@ package designPrincinple;
  */
 
 public class LSPtest {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Bird bird1 = new Swallow();
         Bird bird2 = new BrownKiwi();
         bird1.setSpeed(120);
@@ -16,30 +16,30 @@ public class LSPtest {
         try {
             System.out.println("燕子将飞行" + bird1.getFlyTime(300) + "小时");
             System.out.println("几维鸟将飞行" + bird2.getFlyTime(300) + "小时");
-        }catch (Exception e){
+        } catch (Exception e) {
             System.out.println("出现异常。。。");
         }
     }
 }
 
-class Bird{
+class Bird {
     double flySpeed;
 
-    public void setSpeed(double speed){
+    public void setSpeed(double speed) {
         flySpeed = speed;
     }
 
-    public double getFlyTime(double distance){
-        return (distance/flySpeed);
+    public double getFlyTime(double distance) {
+        return (distance / flySpeed);
     }
 }
 
-class Swallow extends Bird{
-    
+class Swallow extends Bird {
+
 }
 
-class BrownKiwi extends Bird{
-    public void setSpeed(double speed){
+class BrownKiwi extends Bird {
+    public void setSpeed(double speed) {
         flySpeed = 0;
     }
 }

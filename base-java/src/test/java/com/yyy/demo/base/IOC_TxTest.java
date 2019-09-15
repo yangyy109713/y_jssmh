@@ -8,15 +8,15 @@ import tx.UserService;
 public class IOC_TxTest {
 
     @Test
-    public void test(){
+    public void test() {
         //1.传入配置类的位置
         AnnotationConfigApplicationContext annotationContext =
                 new AnnotationConfigApplicationContext(MainConfigTx.class);
         System.out.println("容器创建完成。。。");
 
         String[] definitionNames = annotationContext.getBeanDefinitionNames();
-        for (String name : definitionNames){
-            System.out.println("beanName:"+ name);
+        for (String name : definitionNames) {
+            System.out.println("beanName:" + name);
         }
 
         UserService userService = annotationContext.getBean(UserService.class);
