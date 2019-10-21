@@ -29,12 +29,8 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugin</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-
-                <configuration>
-                    <failOnMissingWebXml>false</failOnMissingWebXml>
-                </configuration>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
