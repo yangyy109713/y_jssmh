@@ -21,7 +21,7 @@ import java.util.Map;
  * @PropertySource
  *    加载指定的配置文件
  */
-@PropertySource(value={"classpath:person.properties"})
+//@PropertySource(value={"classpath:person.properties"})
 @Component
 @ConfigurationProperties(prefix = "person")
 public class Person {
